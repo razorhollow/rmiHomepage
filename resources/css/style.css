@@ -11,6 +11,7 @@ h1 {
 h2, h3 {
 	color: #808080;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	text-align: center;
 }
 
 p, li {
@@ -24,6 +25,10 @@ p, li {
 
 h2 {
 	font-size: 36px;
+}
+
+footer {
+	margin-top: 40px;
 }
 
 .navbar h1 {
@@ -49,6 +54,10 @@ h2 {
 	color: #00AEEF;
 }
 
+.navbar span {
+	flex-grow: 2;
+}
+
 #logo {
 	align-self: flex-start;
 	font-size: 1.5em;
@@ -63,6 +72,8 @@ h2 {
 .about {
 	display: flex;
 	justify-content: center;
+	align-items: flex-end;
+
 }
 
 .aboutbox {
@@ -104,7 +115,7 @@ h2 {
 	width: auto;
 	background-image: url("../images/blurryplasma.jpg");
 	background-repeat: no-repeat;
-	padding: 30px;
+	/*padding: 30px;*/
 	align-items: flex-start;
 
 }
@@ -124,5 +135,33 @@ h2 {
 	text-align: center;
 	font-family: electrolize, sans-serif;
 	font-weight: 400;
-	padding: 140px 20px;
+	padding: 170px 80px;
+}
+
+.spacer {
+	height: 500px;
+	background-image: url("../images/blurryengineer.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.customers {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 40px;
+
+}
+
+.customers img {
+
+}
+
+.clients {
+	font-size: 36px;
+}
+
+#contact ul {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
